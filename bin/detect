@@ -3,8 +3,6 @@
 # convenience functions
 source "$(cd $(dirname $0); cd ..; pwd)"/bin/util/common.sh
 
-echo "Martin"
-
 if [[ -f "$1/composer.json" || -f "$1/index.php" ]]; then
 	echo "PHP" && exit 0
 else
