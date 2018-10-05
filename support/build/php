@@ -6,8 +6,6 @@ set -o pipefail
 # fail harder
 set -eu
 
-echo "-----> Macek dela php"
-
 source $(dirname $BASH_SOURCE)/_util/include/manifest.sh
 
 OUT_PREFIX=$1

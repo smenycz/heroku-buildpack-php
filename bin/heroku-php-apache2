@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+echo "-----> Macek dela apache"
 # fail hard
 set -o pipefail
 # fail harder
