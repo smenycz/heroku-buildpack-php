@@ -214,6 +214,7 @@ if [[ "${HEROKU_PHP_PLATFORM_REPOSITORIES}" == *" - "* ]]; then
 	notice_inline "Bootstrapping using ${s3_url}..."
 fi
 
+status "minimal following"
 
 # minimal PHP needed for installs, and make "composer" invocations use that for now
 mkdir -p $build_dir/.heroku/php-min
