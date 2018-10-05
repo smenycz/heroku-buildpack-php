@@ -32,7 +32,6 @@ export PATH=${OUT_PREFIX}/bin:$PATH
 	--prefix=${OUT_PREFIX} \
 	--with-config-file-path=/app/.heroku/php-min/etc/php \
 	--with-config-file-scan-dir=/app/.heroku/php-min/etc/php/conf.d \
-	--with-unixodbc
 	--enable-static \
 	--disable-phpdbg \
 	--disable-cgi \
